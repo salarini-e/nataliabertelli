@@ -1,0 +1,136 @@
+body{
+    margin: 0 0 0 0;
+}
+header{
+    height: 70px;
+    display: flex;
+    background-color: #E9EBEB;
+}
+
+
+header #title{
+    margin: auto auto auto auto;
+    font-family: 'Heebo', sans-serif;  
+    font-size: 24px;
+    font-weight: 200;
+}
+header #nav{
+    display: flex;
+    width: 20%;
+    margin-left: auto;
+    
+}
+header #nav span{
+    margin: auto;
+    text-transform: uppercase;
+    font-family: 'Heebo', sans-serif;  
+}
+header #nav span:hover{
+    font-weight: 300;
+    color: rgb(26, 25, 25);
+    cursor: pointer;    
+}
+
+main #banner{
+    position: relative;
+    display: flex;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 80%;
+    background-attachment: fixed;
+    background-color: black;
+    background-image: url('../images/bg-banner.webp');
+}
+main #banner span{
+    margin: auto;
+    color: whitesmoke;
+    font-size: 260pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;  
+    line-height: 0;
+}
+main #banner #bar{
+    position: absolute;
+    width: 150px; 
+    margin-top: 420px;
+    margin-left: 53.6%;
+}
+
+main #destaques{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 180px;
+    background-color: #E9EBEB
+}
+main #destaques #titulo{
+    margin: auto auto 50px auto;
+    font-size: 18pt;
+    font-family: 'Heebo', sans-serif;  
+
+    
+}
+main #destaques .row{
+    display: flex;
+}
+
+main #destaques .row .col{
+    display: flex;    
+    margin: 0 auto;
+}
+main #destaques .row .col .img-dstq{
+    width: 480px;
+}
+main #destaques .row .g00{
+    flex-direction: column;
+}
+main #destaques .row .g01{
+    flex-direction: column;
+}
+main #destaques .row .g00 div{
+    display: flex;
+    width: 280px;
+    background-color: white;
+    padding: 40px 50px 10px 50px;
+    margin-top: -70px;
+    margin-left: 20px;
+    flex-direction: column;
+    font-family: 'Heebo', sans-serif;  
+    font-size: 11.5pt; 
+}
+main #destaques .row .g01 div{
+    display: flex;
+    width: 280px;
+    background-color: white;
+    padding: 40px 50px 10px 50px;
+    /* margin-top: -572px; */
+    margin-left: 80px;
+    flex-direction: column;
+    font-family: 'Heebo', sans-serif;  
+    font-size: 11.5pt; 
+    z-index: 5;
+}
+main #destaques .row .g01 .img-dstq{
+    position: absolute;
+    margin-top: 130px;
+}
+main #destaques .row .col div span{
+    margin-bottom: 20px;
+}
+main #destaques .row .col div .titulo{
+    font-weight: 300;
+}
+main #destaques .row .col div .linha{
+    border-top: 1px solid rgba(0, 0, 0, 0.459);
+    width: 70px;
+}
+main #destaques .row .col div .descricao{
+    font-family: 'Heebo', sans-serif;  
+    font-weight: 300;
+    font-size: 10pt;
+    /* text-align: justify; */
+}
+main #destaques .row .col div .arrow-right{
+    margin-left: -10px;
+    margin-bottom: 0;
+}
