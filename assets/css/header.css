@@ -16,19 +16,28 @@ header #title{
 }
 header #nav{
     display: flex;
-    width: 20%;
+    width: 40%;    
     margin-left: auto;
     
 }
-header #nav span{
+header #nav span{ 
+    display: flex;
+    text-align: center !important;
+    align-items: center;  
+    align-content: center;  
+    /* height: 100%;  */
     margin: auto;
     text-transform: uppercase;
     font-family: 'Heebo', sans-serif;  
+    font-size: 10pt;
 }
 header #nav span:hover{
     font-weight: 300;
     color: rgb(26, 25, 25);
     cursor: pointer;    
+    border-top: 4px solid black;
+    padding-bottom: 4px;
+    z-index: 4;
 }
 
 main #banner{
@@ -87,6 +96,14 @@ main #destaques .row .g00{
 main #destaques .row .g01{
     flex-direction: column;
 }
+main #destaques .row .g11{
+    flex-direction: column;
+    margin-top: 30px;    
+}
+main #destaques .row .g11 .img-dstq{
+    width: 800px;
+    margin-left: -165px;
+}
 main #destaques .row .g00 div{
     display: flex;
     width: 280px;
@@ -105,6 +122,20 @@ main #destaques .row .g01 div{
     padding: 40px 50px 10px 50px;
     /* margin-top: -572px; */
     margin-left: 80px;
+    flex-direction: column;
+    font-family: 'Heebo', sans-serif;  
+    font-size: 11.5pt; 
+    z-index: 5;
+}
+main #destaques .row .g11 div{
+    display: flex;
+    position: absolute;
+    width: 340px;
+    background-color: white;
+    padding: 40px 50px 10px 50px;
+    /* margin-top: -572px; */
+    margin-left: 360px;
+    margin-top: 240px;
     flex-direction: column;
     font-family: 'Heebo', sans-serif;  
     font-size: 11.5pt; 
