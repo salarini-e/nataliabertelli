@@ -35,11 +35,14 @@ header #nav span:hover{
     font-weight: 300;
     color: rgb(26, 25, 25);
     cursor: pointer;    
-    border-top: 4px solid black;
-    padding-bottom: 4px;
+    border-top: 3px solid rgb(80, 80, 80);
+    padding-bottom: 3px;
     z-index: 4;
 }
-
+header #nav span a{
+    text-decoration: none;
+    color: black;
+}
 main #banner{
     position: relative;
     display: flex;
@@ -65,14 +68,14 @@ main #banner #bar{
     margin-top: 420px;
     margin-left: 53.6%;
 }
-
+/* DESTAQUES */
 main #destaques{
     display: flex;
     flex-direction: column;
     padding: 50px 180px;
     background-color: #E9EBEB
 }
-main #destaques #titulo{
+main #destaques .titulo{
     margin: auto auto 50px auto;
     font-size: 18pt;
     font-family: 'Heebo', sans-serif;  
@@ -148,7 +151,7 @@ main #destaques .row .g01 .img-dstq{
 main #destaques .row .col div span{
     margin-bottom: 20px;
 }
-main #destaques .row .col div .titulo{
+main #destaques .row .col div .titulo-projeto{
     font-weight: 300;
 }
 main #destaques .row .col div .linha{
@@ -164,4 +167,79 @@ main #destaques .row .col div .descricao{
 main #destaques .row .col div .arrow-right{
     margin-left: -10px;
     margin-bottom: 0;
+}
+/* CONTATO */
+main #contato{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 180px;
+}
+main #contato .titulo{
+    margin: auto auto 50px auto;
+    font-size: 18pt;
+    font-family: 'Heebo', sans-serif;  
+}
+main #contato .row{    
+    display: flex;
+}
+
+main #contato .row div{    
+    display: flex;
+    position: absolute;
+    width: 250px;
+    background-color: white;
+    padding: 40px 50px 10px 50px;
+    /* margin-top: -572px; */
+    margin-left: 580px;
+    margin-top: 240px;
+    flex-direction: column;
+    font-family: 'Heebo', sans-serif;  
+    font-size: 11.5pt; 
+    z-index: 5;
+}
+
+main #contato .row div .titulo-contato{
+    font-size: 18pt;
+    font-weight: 300;
+}
+main #contato .row div .linha{
+    margin-top: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.459);
+    width: 70px;
+}
+main #contato .row div .descricao{
+    font-family: 'Heebo', sans-serif;  
+    font-weight: 300;
+    font-size: 10pt;
+    /* text-align: justify; */
+}
+main #contato .row div .descricao a{
+    text-decoration: none;
+    color: black;
+}
+main #contato .row div .descricao ul{
+    list-style: none;
+    margin-left: -40px;
+    font-size: 11pt;
+}
+main #contato .row div .descricao ul li{
+    margin-bottom: 10px;
+}
+main #contato .row div .arrow-right{
+    margin-left: -8px;
+    margin-bottom: 0;
+}
+main #contato a{
+    margin: 50px auto 0px auto;
+}
+footer{
+    display: flex;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+}
+footer span{
+    margin: auto;
+    font-family: 'Heebo', sans-serif;  
+    font-size: 9pt;
 }

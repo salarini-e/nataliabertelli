@@ -13,13 +13,15 @@
     <link rel="stylesheet" href="./assets/css/header.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <div id="title">
             Natalia Bertelli
         </div>
         <div id="nav">
             <span>PROJETOS</span>
-            <span>CONTATO</span>
+            <span>
+                <a href="#contato">CONTATO</a>
+            </span>
             <span>SOBRE</span>
         </div>
     </header>
@@ -29,12 +31,12 @@
             <img src="./assets/images/bar.png" id="bar" alt="">
         </div>
         <section id="destaques">
-            <span id="titulo">Projetos em Destaque.</span>
+            <span class="titulo">Projetos em Destaque.</span>
             <div class="row">
                 <div class="col g00">
                     <img class="img-dstq" src="./assets/images/grid00.webp" alt="">
                     <div>
-                        <span class="titulo">Apartamento Niterói</span>
+                        <span class="titulo-projeto">Apartamento Niterói</span>
                         <span class="linha"></span>
                         <span class="descricao">Projeto de maquete eletrônica e renderização</span>
                         <a href="#" class="arrow-right">
@@ -45,7 +47,7 @@
                 <div class="col g01">
                     <img class="img-dstq" src="./assets/images/grid01.webp" alt="">
                     <div>
-                        <span class="titulo">Casa do Futuro</span>
+                        <span class="titulo-projeto">Casa do Futuro</span>
                         <span class="linha"></span>
                         <span class="descricao">Trabalho de conclusão do curso de Arquitetura e Urbanismo da Universidade Federal Fluminense.</span>
                         <a href="#" class="arrow-right">
@@ -58,7 +60,7 @@
                 <div class="col g11">
                     <img class="img-dstq" src="./assets/images/grid11.webp" alt="">
                     <div>
-                        <span class="titulo">Casa - interiores</span>
+                        <span class="titulo-projeto">Casa - interiores</span>
                         <span class="linha"></span>
                         <span class="descricao">Projeto autoral para estudo de iluminação e texturas.</span>
                         <a href="#" class="arrow-right">
@@ -68,6 +70,35 @@
                 </div>
             </div>
         </section>
+        <section id="contato">
+            <span class="titulo">Entre em Contato.</span>
+            <div class="row">
+                <img src="./assets/images/bg-contato.webp" alt="">
+                <div>
+                    <span class="titulo-contato">Natalia Bertelli</span>
+                    <span class="linha"></span>
+                    <span class="descricao">
+                        <ul>
+                            <li><a href="mailto:natalaliabertelli@id.uff.br">natalaliabertelli@id.uff.br</a></li>
+                            <li><a href="tel:+5521997935209">55 (21) 9 9793 5209</a></li>
+                            <li>Rio de Janeiro</li>
+                        </ul>
+                    </span>
+                    <span href="#" class="arrow-right">
+                        <img src="./assets/images/icon-linkedin.png" alt="">
+                        <img src="./assets/images/icon-tumblr.png" alt="">
+                    </span>
+                </div>
+            </div>
+            <a href="#header">
+                <img src="./assets/images/arrow-up.png" alt="">
+            </a>
+        </section>
+        <footer>
+            <span>
+                © 2022 - NataliaBertelli
+            </span>
+        </footer>
     </main>
 </body>
 </html>
